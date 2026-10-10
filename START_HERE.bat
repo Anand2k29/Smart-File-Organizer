@@ -1,0 +1,28 @@
+@echo off
+title Smart File Organizer
+cd /d "%~dp0"
+
+py -3 --version >nul 2>nul
+if %errorlevel%==0 (
+    py -3 python\toolbox.py
+    goto end
+)
+python --version >nul 2>nul
+if %errorlevel%==0 (
+    python python\toolbox.py
+    goto end
+)
+
+echo.
+echo  Python was not found on this computer.
+echo.
+echo   1. Go to https://www.python.org/downloads/
+echo   2. Download and install it - tick "Add Python to PATH" on the first screen
+echo   3. Double-click this file again
+echo.
+echo  (If Windows opened the Microsoft Store, close it and use python.org instead.)
+echo.
+
+:end
+echo.
+pause

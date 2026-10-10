@@ -1,0 +1,173 @@
+{
+  "other_folder": "Other",
+  "categories": {
+    "Images": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".gif",
+      ".bmp",
+      ".webp",
+      ".svg",
+      ".ico",
+      ".heic",
+      ".tif",
+      ".tiff",
+      ".avif"
+    ],
+    "Videos": [
+      ".mp4",
+      ".mkv",
+      ".avi",
+      ".mov",
+      ".wmv",
+      ".webm",
+      ".flv",
+      ".m4v"
+    ],
+    "Audio": [
+      ".mp3",
+      ".wav",
+      ".flac",
+      ".aac",
+      ".m4a",
+      ".ogg",
+      ".wma"
+    ],
+    "Documents": [
+      ".pdf",
+      ".doc",
+      ".docx",
+      ".txt",
+      ".rtf",
+      ".odt",
+      ".md",
+      ".epub",
+      ".pkpass"
+    ],
+    "Spreadsheets": [
+      ".xls",
+      ".xlsx",
+      ".xlsm",
+      ".csv",
+      ".tsv",
+      ".ods"
+    ],
+    "Presentations": [
+      ".ppt",
+      ".pptx",
+      ".odp"
+    ],
+    "Code": [
+      ".py",
+      ".ipynb",
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".html",
+      ".css",
+      ".java",
+      ".c",
+      ".cpp",
+      ".h",
+      ".cs",
+      ".go",
+      ".rs",
+      ".php",
+      ".rb",
+      ".sh",
+      ".bat",
+      ".ps1",
+      ".sql",
+      ".vsix"
+    ],
+    "Data": [
+      ".json",
+      ".xml",
+      ".yaml",
+      ".yml",
+      ".pkl",
+      ".parquet",
+      ".db",
+      ".sqlite",
+      ".h5",
+      ".npy",
+      ".npz",
+      ".log",
+      ".winmd"
+    ],
+    "Archives": [
+      ".zip",
+      ".rar",
+      ".7z",
+      ".tar",
+      ".gz",
+      ".tgz",
+      ".bz2",
+      ".xz",
+      ".whl"
+    ],
+    "Installers": [
+      ".exe",
+      ".msi",
+      ".msix",
+      ".appx",
+      ".dmg",
+      ".pkg",
+      ".apk",
+      ".deb",
+      ".rpm",
+      ".iso"
+    ],
+    "Design_3D": [
+      ".glb",
+      ".gltf",
+      ".stl",
+      ".obj",
+      ".fbx",
+      ".blend",
+      ".psd",
+      ".ai",
+      ".fig",
+      ".xd",
+      ".dwg"
+    ],
+    "Certificates_Keys": [
+      ".pem",
+      ".crt",
+      ".cer",
+      ".pfx",
+      ".p12",
+      ".ppk"
+    ],
+    "Fonts": [
+      ".ttf",
+      ".otf",
+      ".woff",
+      ".woff2"
+    ],
+    "Shortcuts": [
+      ".lnk",
+      ".url"
+    ]
+  },
+  "skip_extensions": [
+    ".crdownload",
+    ".part",
+    ".partial",
+    ".download",
+    ".opdownload",
+    ".aria2",
+    ".tmp",
+    ".temp"
+  ],
+  "skip_names": [
+    "desktop.ini",
+    "thumbs.db",
+    ".ds_store",
+    "ntuser.dat",
+    "ntuser.dat.log",
+    "iconcache.db"
+  ]
+}
